@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Carter | Portfolio</title>
+    <meta
+      name="description"
+      content="Simple portfolio website for Alex Carter, a frontend developer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <div class="brand" aria-label="Alex Carter home">AC</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="btn btn-primary" href="#contact">Hire Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Frontend Developer</p>
+            <h1>Building simple, elegant digital experiences.</h1>
+            <p class="lead">
+              I’m Alex Carter, a developer focused on creating clean interfaces,
+              responsive layouts, and user-friendly web experiences.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Let’s Talk</a>
+            </div>
+
+            <ul class="mini-stats" aria-label="Key highlights">
+              <li><strong>3+</strong><span>Years Experience</span></li>
+              <li><strong>12</strong><span>Projects Delivered</span></li>
+              <li><strong>100%</strong><span>Responsive Design</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Profile summary card">
+            <div class="card-top">
+              <div class="avatar">AC</div>
+              <div>
+                <p class="name">Alex Carter</p>
+                <p class="role">Web Developer</p>
+              </div>
+            </div>
+
+            <div class="profile-box">
+              <p>Specialized in:</p>
+              <div class="chip-row">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+
+            <div class="profile-box">
+              <p>Currently working on:</p>
+              <p class="muted">Landing pages, portfolio design, and UI experiments.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container section-grid">
+          <div>
+            <p class="section-tag">About Me</p>
+            <h2>Designing products that feel effortless.</h2>
+          </div>
+          <div>
+            <p>
+              I enjoy turning ideas into modern, accessible, and performance-aware
+              websites. My process blends clean code, strong visual hierarchy, and
+              practical user experience thinking.
+            </p>
+            <p>
+              Whether I’m building a brand new landing page or polishing an existing
+              interface, I focus on clarity, speed, and good communication.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <p class="section-tag">Featured Work</p>
+          <h2>Selected projects</h2>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-badge">UI Design</div>
+              <h3>Brand Landing Page</h3>
+              <p>
+                A polished marketing site concept built for a startup, focused on
+                storytelling and conversion.
+              </p>
+              <a href="#">Case Study</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Web App</div>
+              <h3>Task Dashboard</h3>
+              <p>
+                An interactive dashboard with clean data cards, responsive layout,
+                and efficient task management flows.
+              </p>
+              <a href="#">Case Study</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Portfolio</div>
+              <h3>Creative Studio Site</h3>
+              <p>
+                A content-rich studio portfolio designed around visual storytelling,
+                services, and project showcases.
+              </p>
+              <a href="#">Case Study</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="container">
+          <p class="section-tag">Skills</p>
+          <h2>Tools and technologies</h2>
+          <div class="skill-list">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+            <span>UI/UX Basics</span>
+            <span>Git</span>
+            <span>Figma</span>
+            <span>SEO Fundamentals</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-wrap">
+          <div>
+            <p class="section-tag">Contact</p>
+            <h2>Let’s build something meaningful.</h2>
+            <p>
+              I’m open to freelance work, collaborations, and product design opportunities.
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="your@email.com" />
+            </label>
+            <label>
+              Message
+              <textarea rows="4" placeholder="Tell me about your project..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Alex Carter</p>
+        <div class="socials">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
